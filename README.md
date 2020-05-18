@@ -10,7 +10,9 @@ This is the setup guide for the code that can be found in this repo. Just follow
 * Install cython with `pip install cython`;
 * Install PyTorch and Torchvision using the Anaconda terminal. You can get the proper install command in the [PyTorch official website](https://pytorch.org/). In my case, the proper command to use was: `conda install pytorch torchvision cudatoolkit=10.2 -c pytorch`;
 * *OPTIONAL* You may run the example in the [PyTorch Get Started Locally](https://pytorch.org/get-started/locally/) to test if everything is properly installed;
-* Now, you may clone this repo to your computer and run it. Have Fun! 
+* Now, you may clone this repo to your computer and run it. Have Fun!
+ * First, run the `tv-training-code.py` file with `python -m tv-training-code` in your anaconda terminal. This will train the model, and may take some minutes
+ * Then, after training and saving the model, just run the `tv-evaluation-code.py` file with `python -m tv-evaluation-code` in your anaconda terminal. This should take just some seconds, and it will generate and image in the path that you chose.
 * **OBS:** If you are experiencing some errors, try checking the Windows 10 Simple Help Guide bellow, It contains some errors that I experienced and how to solve them.
 * **OBS 2:** Don’t forget to change the variables `path` in the `tv-training-code.py` and in the `tv-evaluation-code.py`, at the end of the code, to correspond to the proper paths you want to use.
 
