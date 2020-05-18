@@ -1,6 +1,6 @@
 # TorchvisionObjectDetection
 ## Introduction
-This repository is a study about the Pytorch Torchvision Object Detection Finetuning Tutorial, which can be found [here](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html). I followed their steps and improved the code, so now we can not only train the model, but it is possible to save it, load it and pass some images in the model, predicting the pedestrians and generating an image mask. The pedestrian databse used was the [Penn-Fudan Database](https://www.cis.upenn.edu/~jshi/ped_html/).
+This repository is a study about the [Pytorch Torchvision Object Detection Finetuning Tutorial](https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html). I followed their steps and improved the code, so now we can not only train the model, but it is possible to save it, load it and pass some images in the model, predicting the pedestrians and generating an image mask. The pedestrian databse used was the [Penn-Fudan Database](https://www.cis.upenn.edu/~jshi/ped_html/).
 Here, I will explain how to properly run this repo code and I will also provide a simple help guide, showing some errors that I found while trying to make the tutorial work in my computer. So let's get started.
 
 ## Windows 10 Setup Guide
