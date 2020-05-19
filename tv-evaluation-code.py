@@ -133,7 +133,7 @@ def main():
         collate_fn=utils.collate_fn)
 
     #This is the same path you stored your model
-    path = "C:/Users/lucas/OneDrive/Área de Trabalho/LIS/tutorialPyTorch/model/trainedModel.pth"
+    path = "C:/Users/lucas/OneDrive/Área de Trabalho/TorchVisionObjectDetection/model/trainedModel.pth"
     model = torch.load(path)
     model.eval()
 

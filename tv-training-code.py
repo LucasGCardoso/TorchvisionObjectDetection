@@ -160,7 +160,7 @@ def main():
 
     print("That's it!")
     print("#### Saving the model ####")
-    path = "C:/Users/lucas/OneDrive/Área de Trabalho/LIS/tutorialPyTorch/model/trainedModel.pth"
+    path = "C:/Users/lucas/OneDrive/Área de Trabalho/TorchVisionObjectDetection/model/trainedModel.pth"
     torch.save(model, path)
     print("#### Model saved! Now execute tv-evaluation-code.py to run it! ####")
 
