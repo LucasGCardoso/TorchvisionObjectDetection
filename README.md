@@ -5,8 +5,8 @@ Here, I will explain how to properly run this repo code and I will also provide 
 
 ## Windows 10 Setup Guide
 This is the setup guide for the code that can be found in this repo. Just follow these steps and you should be ready to run it.
-* Install Python 3 in your computer
-* First install [Anaconda](https://www.anaconda.com/);
+* First, you must have [Python 3](https://www.python.org/downloads/) installed in your computer
+* Install [Anaconda](https://www.anaconda.com/);
 * Open Anaconda 3 terminal and install [numpy](https://scipy.org/install.html#pip-install), it is an important dependency; 
 * Install cython with `pip install cython`;
 * Install PyTorch and Torchvision using the Anaconda terminal. You can get the proper install command in the [PyTorch official website](https://pytorch.org/). In my case, the proper command to use was: `conda install pytorch torchvision cudatoolkit=10.2 -c pytorch`;
